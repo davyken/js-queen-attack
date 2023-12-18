@@ -1,15 +1,15 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #FFDEAD;
+  background: rgb(255, 222, 173);
   padding: 0;
   margin: 0;
 }
 
 header {
-  background: #8B4513;
+  background: rgb(139, 69, 19);
   color: black;
   text-align: center;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px;
 }
 
 .chessboard {
@@ -17,7 +17,7 @@ header {
   width: 640px;
   height: 640px;
   text-align: center;
-  border: 15px solid #714d38;
+  border: 15px solid rgb(113, 77, 56);
   font-size: 0;
   padding: 0;
 }
@@ -25,19 +25,19 @@ header {
 .dark {
   width: 80px;
   height: 80px;
-  background-color: #714d38;
+  background-color: rgb(113, 77, 56);
   display: table-cell;
   vertical-align: baseline;
-  border: 5px solid #714d38;
+  border: 5px solid rgb(113, 77, 56);
 }
 
 .light {
   width: 80px;
   height: 80px;
-  background-color: #efddb4;
+  background-color: rgb(239, 221, 180);
   display: table-cell;
   vertical-align: baseline;
-  border: 5px solid #efddb4;
+  border: 5px solid rgb(239, 221, 180);
 }
 
 #check,
@@ -48,13 +48,12 @@ header {
   font-size: 20px;
   padding: 10px;
   width: 120px;
-  background: #714d38;
+  background: rgb(113, 77, 56);
   color: white;
   border-radius: 7px;
   text-align: center;
   position: relative;
 }
-
 
 #check {
   margin: auto;
@@ -70,7 +69,7 @@ header {
 
 #check:hover,
 #refresh:hover {
-  background: #8B4513;
+  background: rgb(139, 69, 19);
 }
 
 .alerts {
@@ -80,7 +79,7 @@ header {
 #alert {
   display: block;
   font-size: 18px;
-  color: #008000;
+  color: rgb(0, 128, 0);
   text-align: center;
   margin: auto;
   margin-top: 20px;
